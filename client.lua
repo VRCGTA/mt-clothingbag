@@ -87,6 +87,6 @@ end)
 
 RegisterNetEvent('mt-clothingbag:client:despawnBag', function(obj)
     DeleteObject(obj)
-    TriggerServerEvent('mt-clothingbag:server:removeBag')
+    -- TriggerServerEvent('mt-clothingbag:server:removeBag')
     TriggerEvent('mt-clothing:client:openMenu')
 end)
